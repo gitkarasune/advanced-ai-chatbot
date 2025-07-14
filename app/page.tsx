@@ -4,7 +4,6 @@ import { AIChatbot } from '@/components/ai-chatbot';
 import { Button } from '@/components/ui/button';
 import { MessageSquare, Users, BookOpen, Award } from "lucide-react" // Bot
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -94,11 +93,11 @@ export default function Home() {
             Join thousands of students already using Advanced AI Chatbot to enhance their academic journey.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href={"/k"} >
+            <a href="https://github.com/gitkarasune/advanced-ai-chatbot/" >
             <Button size="lg" variant="outline" className="">
               Learn More
             </Button>
-            </Link>
+            </a>
           </div>
         </motion.div>
 
